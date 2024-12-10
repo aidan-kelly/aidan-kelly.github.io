@@ -1,11 +1,12 @@
-import './AboutMe.css'
 import NavBar from "./components/NavBar/NavBar";
 
 
 export default function AboutMe()
 {
+    document.title = 'About Me';
+
     return (
-        <>
+        <div className="font-mono">
             <NavBar title='About Me'/>
                 <div className="article">
                 <h1>About Me</h1>
@@ -36,7 +37,7 @@ export default function AboutMe()
                 
 
             </div>
-        </>
+        </div>
     );
     
 }

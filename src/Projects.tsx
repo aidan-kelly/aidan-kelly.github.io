@@ -1,3 +1,4 @@
+import Header from "./components/Header";
 import NavBar from "./components/NavBar/NavBar";
 
 export default function Projects()
@@ -6,7 +7,7 @@ export default function Projects()
     return (
         <div className="font-mono">
             <NavBar title='Projects'/>
-            <h1>PROJECTS</h1>
+            <Header title="Projects"/>
         </div>
     );
 }

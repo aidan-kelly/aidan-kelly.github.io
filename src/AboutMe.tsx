@@ -1,3 +1,4 @@
+import Header from "./components/Header";
 import NavBar from "./components/NavBar/NavBar";
 
 
@@ -9,7 +10,7 @@ export default function AboutMe()
         <div className="font-mono">
             <NavBar title='About Me'/>
                 <div className="article">
-                <h1>About Me</h1>
+                <Header title="About Me"/>
                 
                 <p>
                     I am a Software Developer with four years of experience, currently working at SeisWare. My

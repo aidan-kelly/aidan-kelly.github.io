@@ -1,3 +1,4 @@
+import Header from "./components/Header";
 import NavBar from "./components/NavBar/NavBar";
 
 export default function Blog()
@@ -6,7 +7,7 @@ export default function Blog()
     return (
         <div className="font-mono">
             <NavBar title='Blog'/>
-            <h1>BLOG</h1>
+            <Header title="Blog"/>
         </div>
     );
 }

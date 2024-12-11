@@ -18,7 +18,7 @@ const navLinks =
 export default function NavBar( {title}: NavBarProps )
 {   
     return (
-        <nav className="bg-zinc-700">
+        <nav className="bg-zinc-700 sticky top-0">
             <ul className="nav-links flex">
             {navLinks.map((link) => {
                 const isActive = title === link.label;
@@ -28,7 +28,7 @@ export default function NavBar( {title}: NavBarProps )
                     return (
                         <React.Fragment key={link.label}>
                             <li className="nav-items flex-initial p-3">
-                                <a href={link.route} className=" text-emerald-400">{link.label}</a>
+                                <a href={link.route} className=" text-emerald-400 hover:text-emerald-400">{link.label}</a>
                             </li>
                             <li className="seperator flex-initial p-3 text-gray-800">|</li>
                         </React.Fragment>
@@ -42,7 +42,7 @@ export default function NavBar( {title}: NavBarProps )
                             {isActive ? (
                                 link.label
                             ) : (
-                                <Link to={link.route} className=" text-emerald-400">{link.label}</Link>
+                                <Link to={link.route} className=" text-emerald-400 hover:text-emerald-400">{link.label}</Link>
                             )}
                             </li>
                             <li className="seperator flex-initial p-3 text-gray-800">|</li>

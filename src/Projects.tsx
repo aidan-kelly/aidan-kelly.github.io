@@ -9,27 +9,26 @@ export default function Projects()
         <div className="font-mono">
             <NavBar title='Projects'/>
             <Header title="Projects"/>
-            <div className="flex justify-center">
-                <ProjectTile 
-                    header="Pac-Man" 
-                    body="A Pac-Man clone written in GDScript using the Godot game engine." 
-                    image_path="/pacman2.png" 
-                    project_link="https://github.com/aidan-kelly/Pac-Man-Clone"
-                />
-                <ProjectTile 
-                    header="Pac-Man" 
-                    body="A Pac-Man clone written in GDScript using the Godot game engine." 
-                    image_path="/pacman2.png" 
-                    project_link="https://github.com/aidan-kelly/Pac-Man-Clone"
-                />
-                <ProjectTile 
-                    header="Pac-Man" 
-                    body="A Pac-Man clone written in GDScript using the Godot game engine." 
-                    image_path="/pacman2.png" 
-                    project_link="https://github.com/aidan-kelly/Pac-Man-Clone"
-                />
-            </div>
-            
+                <div className="flex sm:flex-row flex-col justify-center m-2 gap-4">
+                    <ProjectTile 
+                        header="Pac-Man" 
+                        body="A Pac-Man clone written in GDScript using the Godot game engine." 
+                        image_path="/pacman2.png" 
+                        project_link="https://github.com/aidan-kelly/Pac-Man-Clone"
+                    />
+                    <ProjectTile 
+                        header="Pac-Man" 
+                        body="A Pac-Man clone written in GDScript using the Godot game engine." 
+                        image_path="/pacman2.png" 
+                        project_link="https://github.com/aidan-kelly/Pac-Man-Clone"
+                    />
+                    <ProjectTile 
+                        header="Pac-Man" 
+                        body="A Pac-Man clone written in GDScript using the Godot game engine." 
+                        image_path="/pacman2.png" 
+                        project_link="https://github.com/aidan-kelly/Pac-Man-Clone"
+                    />
+                </div>
         </div>
     );
 }

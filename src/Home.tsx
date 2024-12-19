@@ -4,7 +4,7 @@ export default function Home()
 {
     document.title = 'Aidan Kelly';
     return (
-        <div className="font-mono bg-[url('/background-2048x1536.png')] h-screen">
+        <div className="font-mono bg-[url('/background-2048x1536.png')] h-screen bg-cover bg-center bg-no-repeat">
             
             <NavBar title='Home'/>
             <div className="flex flex-col justify-items-center top-1/2 left-1/2 absolute -translate-x-1/2 -translate-y-1/2">

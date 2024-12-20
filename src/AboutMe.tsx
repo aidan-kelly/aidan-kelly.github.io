@@ -29,7 +29,7 @@ export default function AboutMe()
                 <hr/>
                 
                 <h2 className="p-5 font-bold text-left text-3xl">Contact Information and Links</h2>
-                <div className='ml-5 mr-5'>
+                <div className='ml-10 mr-5'>
                     <ul className="list-disc">
                         <li><a href="tel:+1-403-464-4043" target="_blank">403-464-4043</a></li>
                         <li><a href="https://github.com/aidan-kelly" target="_blank">GitHub</a></li>

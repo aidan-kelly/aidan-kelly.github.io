@@ -12,7 +12,7 @@ export default function ProjectTile(projectTileProps: ProjectTileProps)
         <div className="max-w-sm rounded overflow-hidden shadow-lg bg-zinc-700">
             <img className="w-full" src={projectTileProps.image_path}/>
             <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2 flex justify-between">
+                <div className="font-bold text-xl mb-2 flex justify-between text-white">
                     {projectTileProps.header}
                     <a href={projectTileProps.project_link} target="_blank">
                         <img src="/github-mark-white.png" className="min-h-7 max-h-7 "/>

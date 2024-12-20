@@ -38,7 +38,7 @@ export default function NavBar( {title}: NavBarProps )
                     {
                         return (
                             <React.Fragment key={link.label}>
-                                <li className="nav-items flex-initial p-3">
+                                <li className="nav-items flex-initial p-3 text-white">
                                 {isActive ? (
                                     link.label
                                 ) : (

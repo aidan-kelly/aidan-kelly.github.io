@@ -6,6 +6,6 @@ interface HeaderProps
 export default function Header({title}:HeaderProps)
 {
     return (
-        <h1 className="text-emerald-400 p-5 font-bold text-left">{title}</h1>
+        <h1 className="p-5 font-bold text-left">{title}</h1>
     );
 }
